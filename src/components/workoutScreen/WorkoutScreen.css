@@ -1,0 +1,4 @@
+/* Override the tailwind css .grid-rows-2 to allow for full height on the top container. */
+.grid-row-override {
+    grid-template-rows: 1fr auto;
+}
