@@ -1,3 +1,25 @@
+# Fitness app
+
+![screen shot of the fitness app](./screenshot.png)
+This is a simple app for someone interested in fitness. Inspired by a popular fitness program located in the United States,
+this app gives you the ability to customize a fitness workout. For example, the workout included consists of 3 groups of
+exercises, each repeated 3 times. In total, you'll do 27 sets of exercises (9 total exercises repeated 3 times each). 
+There are 3 water breaks that last 1 minute each, and 20 seconds between each exercise to prepare for the next one.
+
+For example:
+- 40 seconds for exercise #1
+- 20 seconds of rest (or prepare for next exercise)
+- 40 seconds for exercise #2
+- 20 seconds of rest
+- 40 seconds for exercise #3
+
+There are three rounds of this with water breaks in between each. Each round has different exercises.
+
+Things to be aware of:
+- Not mobile first. The app was intended to run on a laptop so it's easy to see the timer while exercising.
+- Exercises can be configured in the `./data/exercises.js` file.
+- Doesn't follow best practices for React. This was a quick and dirty solution.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
